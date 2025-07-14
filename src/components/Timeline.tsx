@@ -26,8 +26,8 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Software Engineering Intern</h3>
             <h4 className="vertical-timeline-element-subtitle">Cisco Systems, Inc. - San Jose, CA</h4>
             <p>
-              • Developed an internal AI assistant for a cloud security product enabling 120+ developers to efficiently troubleshoot issues from audit, system, and network traffic logs<br/>
-              • Created a secure Model Context Protocol server in Go that exposes tools to an AWS Bedrock LLM client<br/>
+              • Developed an internal AI assistant for a cloud security product enabling 60+ developers to efficiently troubleshoot issues from audit, system, and network traffic logs<br/>
+              • Created a secure Model Context Protocol server in Go that exposes tools to an AWS Bedrock-accessed LLM<br/>
               • Designed API endpoint to integrate tool within existing product, reducing average debugging time by 40%
             </p>
           </VerticalTimelineElement>

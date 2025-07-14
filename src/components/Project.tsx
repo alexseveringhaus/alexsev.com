@@ -63,7 +63,7 @@ function Project() {
                             </div>
                             <div className="project-details">
                                 <h2>Market Neural Network</h2>
-                                <p>Neural network model to predict stock market trends using Yahoo Finance API. Implements LSTM layers, feature engineering with lag variables, and backtesting strategy visualization.</p>
+                                <p>Deep learning architecture to predict stock market trends using Yahoo Finance API. Implements ML-driven trading strategies featuring performance metrics and visualization.</p>
                                 <p className="tech-stack"><strong>Tech:</strong> Python, Keras, TensorFlow</p>
                             </div>
                         </div>

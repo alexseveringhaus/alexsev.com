@@ -25,7 +25,7 @@ function About() {
             <div className="skills-grid">
               <div className="skill-category">
                 <h3>Languages</h3>
-                <p>Python, C/C++, Go, Java, JavaScript, HTML, CSS, SQL, Unix Shell, Verilog</p>
+                <p>Python, C/C++, Golang, Java, JavaScript, HTML, CSS, SQL, Unix Shell/Linux, Verilog</p>
               </div>
               <div className="skill-category">
                 <h3>Technologies</h3>
