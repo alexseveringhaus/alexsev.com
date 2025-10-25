@@ -25,11 +25,11 @@ function About() {
             <div className="skills-grid">
               <div className="skill-category">
                 <h3>Languages</h3>
-                <p>Python, C/C++, Golang, Java, JavaScript, HTML, CSS, SQL, Unix Shell/Linux, Verilog</p>
+                <p>Python, C/C++, Golang, Java, JavaScript, HTML, CSS, SQL, Unix Shell</p>
               </div>
               <div className="skill-category">
                 <h3>Technologies</h3>
-                <p>Git, AWS, Docker, Virtual Machines, VSCode, MySQL, Eclipse, Cursor, Model Context Protocol, IntelliJ, Raspberry Pi, Arduino</p>
+                <p>Git, AWS, Docker, Virtual Machines, Linux, VSCode, MySQL, Eclipse, Cursor, Model Context Protocol, Raspberry Pi, Arduino</p>
               </div>
             </div>
           </div>
