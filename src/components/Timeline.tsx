@@ -1,7 +1,7 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBuilding } from '@fortawesome/free-solid-svg-icons';
+import { faBuilding, faBuildingCircleCheck, faCity, faMoneyBill, faMountainCity, faTreeCity } from '@fortawesome/free-solid-svg-icons';
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 import { faFlask } from '@fortawesome/free-solid-svg-icons';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
@@ -14,7 +14,25 @@ function Timeline() {
     <div id="experience">
       <div className="items-container">
         <h1>Experience</h1>
-        <VerticalTimeline>
+          <VerticalTimeline>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="June 2026 – Aug. 2026"
+            iconStyle={{ background: '#000000', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faCity} />}
+          >
+            <h3 className="vertical-timeline-element-title">Software Engineering Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle">Bloomberg L.P. - New York, New York</h4>
+            <p>
+              • Architected and deployed to production a standalone C++ daemon that improved routing infrastructure efficiency by extracting core components into an independently owned service<br/>
+              • Designed and implemented a new API endpoint backed by SQL database queries to incrementally refresh a cache, ensuring up-to-date information while reducing network overhead<br/>
+              • Owned full development and built automated Python test coverage to validate reliability under extreme load
+            </p>
+          </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
@@ -62,7 +80,8 @@ function Timeline() {
             <p>
               • Created Python-controlled robots using Raspberry Pi to provide study companions for 300 users with ADHD<br/>
               • Applied Gaussian Process reinforcement learning to iteratively personalize robot behavior to user preferences<br/>
-              • Facilitated collaboration between 30+ student researchers for more robust software and hardware co-design
+              • Facilitated collaboration between 30+ student researchers for more robust software and hardware co-design<br/>
+              • See more: <a href="https://uscinteractionlab.web.app/project/study_companions" target="_blank" rel="noopener noreferrer">Interaction Lab USC</a>
             </p>
           </VerticalTimelineElement>
           

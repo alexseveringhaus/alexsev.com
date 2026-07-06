@@ -9,6 +9,10 @@
     }
 }
 
+#experience h1 {
+    text-align: center;
+}
+
 .vertical-timeline span {
     color: white;
     font-family: 'Courier Prime', monospace;
@@ -20,6 +24,15 @@
 
 .vertical-timeline-element p {
     color: rgb(39, 40, 34);
+}
+
+.vertical-timeline-element p a {
+    color: rgb(39, 40, 34);
+    text-decoration: underline;
+
+    &:visited {
+        color: rgb(39, 40, 34);
+    }
 }
 
 .vertical-timeline-element h3 {

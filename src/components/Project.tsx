@@ -7,6 +7,7 @@ import { faVolumeUp } from '@fortawesome/free-solid-svg-icons';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import { faChartLine } from '@fortawesome/free-solid-svg-icons';
 import { faRobot } from '@fortawesome/free-solid-svg-icons';
+import { faBrain } from '@fortawesome/free-solid-svg-icons';
 
 function Project() {
     return (
@@ -14,9 +15,23 @@ function Project() {
             <h1>Projects</h1>
             <div className="projects-grid">
                 <div className="project">
+                    <a href="https://github.com/alexseveringhaus/alzheimers-ML" target="_blank" rel="noreferrer">
+                        <div className="project-box">
+                            <div className="project-icon icon-purple">
+                                <FontAwesomeIcon icon={faBrain} size="2x" />
+                            </div>
+                            <div className="project-details">
+                                <h2>Alzheimer's ML</h2>
+                                <p>Built an Alzheimer's classification tool, training logistic regression, neural network, and CNN models. Productionized a FastAPI REST service with an interactive Streamlit dashboard.</p>
+                                <p className="tech-stack"><strong>Tech:</strong> Python, Fast-API, ML</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div className="project">
                     <a href="https://github.com/uscmakers/BullsAI" target="_blank" rel="noreferrer">
                         <div className="project-box">
-                            <div className="project-icon">
+                            <div className="project-icon icon-blue">
                                 <FontAwesomeIcon icon={faEye} size="2x" />
                             </div>
                             <div className="project-details">
@@ -30,7 +45,7 @@ function Project() {
                 <div className="project">
                     <a href="https://github.com/alexseveringhaus/Noise-Monitoring-IoT" target="_blank" rel="noreferrer">
                         <div className="project-box">
-                            <div className="project-icon">
+                            <div className="project-icon icon-orange">
                                 <FontAwesomeIcon icon={faVolumeUp} size="2x" />
                             </div>
                             <div className="project-details">
@@ -44,7 +59,7 @@ function Project() {
                 <div className="project">
                     <a href="https://github.com/alexseveringhaus/Rideshare-Web-App" target="_blank" rel="noreferrer">
                         <div className="project-box">
-                            <div className="project-icon">
+                            <div className="project-icon icon-green">
                                 <FontAwesomeIcon icon={faCar} size="2x" />
                             </div>
                             <div className="project-details">
@@ -58,7 +73,7 @@ function Project() {
                 <div className="project">
                     <a href="https://github.com/alexseveringhaus/Market-Neural-Network" target="_blank" rel="noreferrer">
                         <div className="project-box">
-                            <div className="project-icon">
+                            <div className="project-icon icon-red">
                                 <FontAwesomeIcon icon={faChartLine} size="2x" />
                             </div>
                             <div className="project-details">
@@ -71,7 +86,7 @@ function Project() {
                 </div>
                 <div className="project">
                     <div className="project-box">
-                        <div className="project-icon">
+                        <div className="project-icon icon-indigo">
                             <FontAwesomeIcon icon={faRobot} size="2x" />
                         </div>
                         <div className="project-details">
@@ -84,7 +99,7 @@ function Project() {
                 <div className="project">
                     <a href="https://github.com/alexseveringhaus/alexsev.com" target="_blank" rel="noreferrer">
                         <div className="project-box">
-                            <div className="project-icon">
+                            <div className="project-icon icon-teal">
                                 <FontAwesomeIcon icon={faGlobe} size="2x" />
                             </div>
                             <div className="project-details">
