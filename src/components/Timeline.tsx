@@ -1,7 +1,7 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBuilding, faBuildingCircleCheck, faCity, faMoneyBill, faMountainCity, faTreeCity } from '@fortawesome/free-solid-svg-icons';
+import { faBuilding, faCity} from '@fortawesome/free-solid-svg-icons';
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 import { faFlask } from '@fortawesome/free-solid-svg-icons';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
