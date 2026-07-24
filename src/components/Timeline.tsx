@@ -27,9 +27,9 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Software Engineering Intern</h3>
             <h4 className="vertical-timeline-element-subtitle">Bloomberg L.P. - New York, New York</h4>
             <p>
-              • Architected and deployed to production a standalone C++ daemon that improved routing infrastructure efficiency by extracting core components into an independently owned service<br/>
-              • Designed and implemented a new API endpoint backed by SQL database queries to incrementally refresh a cache, ensuring up-to-date information while reducing network overhead<br/>
-              • Owned full development and built automated Python test coverage to validate reliability under extreme load
+              • Extracted core routing components into a standalone C++ daemon running on 80,000 production machines serving 770 other services, decoupling deploys from upstream teams' slower development cadences<br/>
+              • Optimized cache refreshes by designing a scheduled bulk-update endpoint that syncs only recently-changed resources, cutting per-cycle network requests from 200-600 down to 1 and significantly reducing refresh latency<br/>
+              • Owned service end-to-end and built a Python load-testing suite to validate reliability under sustained traffic
             </p>
           </VerticalTimelineElement>
 
@@ -45,8 +45,8 @@ function Timeline() {
             <h4 className="vertical-timeline-element-subtitle">Cisco Systems, Inc. - San Jose, CA</h4>
             <p>
               • Developed an internal AI assistant for a cloud security product enabling 60+ developers to efficiently troubleshoot issues from logs and metrics data<br/>
-              • Built a production-ready Model Context Protocol server in Go exposing tools to an AWS Bedrock LLM<br/>
-              • Designed and integrated API endpoint within existing product, reducing average debugging time by 40%
+              • Built a production-ready Model Context Protocol server in Go, exposing agentic tools to AWS Bedrock LLMs<br/>
+              • Designed and integrated API endpoint within product, reducing self-reported mean debugging time by 40\%
             </p>
           </VerticalTimelineElement>
           

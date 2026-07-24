@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGraduationCap, faCode, faGears } from '@fortawesome/free-solid-svg-icons';
+import { faGraduationCap, faCode, faGears, faBrain } from '@fortawesome/free-solid-svg-icons';
 import '../assets/styles/About.scss';
 
 function About() {
@@ -60,30 +60,39 @@ function About() {
                 <h3><FontAwesomeIcon icon={faCode} className="skill-icon" />Languages</h3>
                 <ul className="skill-list">
                   <li>Python</li>
-                  <li>C/C++</li>
+                  <li>C++</li>
                   <li>Go</li>
                   <li>Java</li>
-                  <li>JavaScript</li>
-                  <li>React</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
                   <li>SQL</li>
+                  <li>JavaScript</li>
                   <li>Unix Shell</li>
                 </ul>
               </div>
               <div className="skill-category">
-                <h3><FontAwesomeIcon icon={faGears} className="skill-icon" />Technologies</h3>
+                <h3><FontAwesomeIcon icon={faGears} className="skill-icon" />Infrastructure</h3>
                 <ul className="skill-list">
-                  <li>Claude Code</li>
-                  <li>Git</li>
                   <li>Docker</li>
-                  <li>Virtual Machines</li>
                   <li>AWS</li>
+                  <li>Git</li>
                   <li>MySQL</li>
-                  <li>Cursor</li>
+                  <li>FastAPI</li>
                   <li>MCP</li>
-                  <li>Fast-API</li>
-                  <li>ML</li>
+                  <li>Distributed Systems</li>
+                  <li>REST APIs</li>
+                  <li>Load Testing</li>
+                </ul>
+              </div>
+              <div className="skill-category">
+                <h3><FontAwesomeIcon icon={faBrain} className="skill-icon" />ML</h3>
+                <ul className="skill-list">
+                  <li>PyTorch</li>
+                  <li>scikit-learn</li>
+                  <li>SHAP</li>
+                  <li>NumPy</li>
+                  <li>pandas</li>
+                  <li>CNNs</li>
+                  <li>Reinforcement Learning</li>
+                  <li>LLM Tooling</li>
                 </ul>
               </div>
             </div>
