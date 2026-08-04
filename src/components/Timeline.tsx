@@ -27,9 +27,8 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Software Engineering Intern</h3>
             <h4 className="vertical-timeline-element-subtitle">Bloomberg L.P. - New York, New York</h4>
             <p>
-              • Extracted core routing components into a standalone C++ daemon running on 80,000 production machines serving 770 other services, decoupling deploys from upstream teams' slower development cadences<br/>
-              • Optimized cache refreshes by designing a scheduled bulk-update endpoint that syncs only recently-changed resources, cutting per-cycle network requests from 200-600 down to 1 and significantly reducing refresh latency<br/>
-              • Owned service end-to-end and built a Python load-testing suite to validate reliability under sustained traffic
+              • Built a router-adjacent C++ sidecar that caches user-defined rulesets to guide routing decisions, architected to scale across 93,000 machines serving 770 client resources<br/>
+              • Exposed a new endpoint to fetch only updated rulesets, thereby requiring 1 request per cache refresh cycle, reducing update propagation lag by ∼97%<br/>
             </p>
           </VerticalTimelineElement>
 
