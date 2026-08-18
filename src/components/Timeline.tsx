@@ -27,8 +27,9 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Software Engineering Intern</h3>
             <h4 className="vertical-timeline-element-subtitle">Bloomberg L.P. - New York, New York</h4>
             <p>
-              • Built a router-adjacent C++ sidecar that caches user-defined rulesets to guide routing decisions, architected to scale across 93,000 machines serving 770 client resources<br/>
+              • Built a router-adjacent C++ sidecar that caches user-defined rulesets to guide routing decisions, architected to scale across 93,000 machines serving 770 other services<br/>
               • Exposed a new endpoint to fetch only updated rulesets, thereby requiring 1 request per cache refresh cycle, reducing update propagation lag by ∼97%<br/>
+              • Implemented a thread-safe string interning pool to deduplicate rulesets, reducing memory footprint by 6.6x<br/>
             </p>
           </VerticalTimelineElement>
 
