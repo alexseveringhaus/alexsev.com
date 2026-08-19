@@ -46,7 +46,7 @@ function Timeline() {
             <p>
               • Developed an internal AI assistant for a cloud security product enabling 60+ developers to efficiently troubleshoot issues from logs and metrics data<br/>
               • Built a production-ready Model Context Protocol server in Go, exposing agentic tools to AWS Bedrock LLMs<br/>
-              • Designed and integrated API endpoint within product, reducing self-reported mean debugging time by 40\%
+              • Designed and integrated API endpoint within product, reducing self-reported mean debugging time by 40%
             </p>
           </VerticalTimelineElement>
           
