@@ -8,6 +8,7 @@ import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import { faChartLine } from '@fortawesome/free-solid-svg-icons';
 import { faRobot } from '@fortawesome/free-solid-svg-icons';
 import { faBrain } from '@fortawesome/free-solid-svg-icons';
+import { faMicrochip } from '@fortawesome/free-solid-svg-icons';
 
 function Project() {
     return (
@@ -38,6 +39,20 @@ function Project() {
                                 <h2>Bulls-AI</h2>
                                 <p>Computer vision model using OpenCV to score mobile darts game with ~95% accuracy. Features IR camera detection system and image filtering optimization.</p>
                                 <p className="tech-stack"><strong>Tech:</strong> Python, OpenCV</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div className="project">
+                    <a href="https://github.com/alexseveringhaus/cuda_matrix_mult" target="_blank" rel="noreferrer">
+                        <div className="project-box">
+                            <div className="project-icon icon-pink">
+                                <FontAwesomeIcon icon={faMicrochip} size="2x" />
+                            </div>
+                            <div className="project-details">
+                                <h2>CUDA Matrix Multiplication Optimization</h2>
+                                <p>Implemented 6 progressively optimized CUDA SGEMM kernels, improving throughput from 2.5% to 62.3% of cuBLAS on a Tesla T4 GPU.</p>
+                                <p className="tech-stack"><strong>Tech:</strong> CUDA C++, Nsight Compute</p>
                             </div>
                         </div>
                     </a>
