@@ -20,7 +20,7 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="June 2026 – Aug. 2026"
+            date="June 2026 - Aug. 2026"
             iconStyle={{ background: '#000000', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faCity} />}
           >
@@ -28,7 +28,7 @@ function Timeline() {
             <h4 className="vertical-timeline-element-subtitle">Bloomberg L.P. - New York, New York</h4>
             <p>
               • Built a router-adjacent C++ sidecar that caches user-defined rulesets to guide routing decisions, architected to scale across 93,000 machines serving 770 other services<br/>
-              • Exposed a new endpoint to fetch only updated rulesets, thereby requiring 1 request per cache refresh cycle, reducing update propagation lag by ∼97%<br/>
+              • Exposed a new endpoint to fetch only updated rulesets, cutting each cache refresh from ~300 requests to 1, reducing update propagation lag by ~97%<br/>
               • Implemented a thread-safe string interning pool to deduplicate rulesets, reducing memory footprint by 6.6x<br/>
             </p>
           </VerticalTimelineElement>
@@ -37,7 +37,7 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="May 2025 – Aug. 2025"
+            date="May 2025 - Aug. 2025"
             iconStyle={{ background: '#000000', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBuilding} />}
           >
@@ -54,7 +54,7 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="Jan. 2025 – May 2025"
+            date="Jan. 2025 - May 2025"
             iconStyle={{ background: '#000000', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faGraduationCap} />}
           >
@@ -71,7 +71,7 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="Aug. 2024 – Dec. 2024"
+            date="Aug. 2024 - Dec. 2024"
             iconStyle={{ background: '#000000', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faFlask} />}
           >
@@ -89,7 +89,7 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="May 2024 – Aug. 2024"
+            date="May 2024 - Aug. 2024"
             iconStyle={{ background: '#000000', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faCode} />}
           >

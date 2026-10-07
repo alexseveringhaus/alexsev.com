@@ -14,7 +14,7 @@ function About() {
             <div className="education-item">
               <div className="education-header">
                 <h3><FontAwesomeIcon icon={faGraduationCap} className="education-icon" />University of Southern California, Viterbi School of Engineering</h3>
-                <p className="dates">Aug. 2023 – May 2027</p>
+                <p className="dates">Aug. 2023 - May 2027</p>
               </div>
               <p className="degree">Bachelor of Science, Computer Engineering & Computer Science</p>
               <div className="education-details">
@@ -38,7 +38,7 @@ function About() {
             <div className="education-item">
               <div className="education-header">
                 <h3><FontAwesomeIcon icon={faGraduationCap} className="education-icon" />University of Edinburgh</h3>
-                <p className="dates">Jan. 2026 – May 2026</p>
+                <p className="dates">Jan. 2026 - May 2026</p>
               </div>
               <p className="degree">Study Abroad Semester</p>
               <div className="education-details">
