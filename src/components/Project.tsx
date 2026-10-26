@@ -23,7 +23,7 @@ function Project() {
                             </div>
                             <div className="project-details">
                                 <h2>Alzheimer's ML</h2>
-                                <p>Built an Alzheimer's classification tool, training logistic regression, neural network, and CNN models. Productionized a FastAPI REST service with an interactive Streamlit dashboard.</p>
+                                <p>Built an Alzheimer's classification tool, training logistic regression, neural network, and CNN models. Served model via a FastAPI REST API and in-browser inference in a React app.</p>
                                 <p className="tech-stack"><strong>Tech:</strong> Python, Fast-API, ML</p>
                             </div>
                         </div>
