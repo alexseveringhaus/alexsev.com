@@ -79,7 +79,7 @@ function Project() {
                             </div>
                             <div className="project-details">
                                 <h2>Rideshare App</h2>
-                                <p>Full-stack web application to promote rideshare for 30,000+ students. Integrates React frontend with Google Maps API, Java servlets, and MySQL database.</p>
+                                <p>Full-stack web app to promote rideshare at USC, built to scale to 30,000+ students. Integrates React frontend with Google Maps API, Java servlets, and MySQL database.</p>
                                 <p className="tech-stack"><strong>Tech:</strong> Java, React, MySQL</p>
                             </div>
                         </div>
